@@ -1,0 +1,67 @@
+:root{
+    -grey: #D1D5DB;
+    -purple:#A78BFA;
+
+     
+
+}
+
+
+body{
+   
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+#container{
+    margin: 10% auto;
+    height: 500px;
+    width: 350px;
+    background-color: #FBBF24 ;
+    background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png) ;
+    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+
+
+
+#row_1{
+    display: inline;
+    padding: 20px;
+    margin-top: 3rem;
+    
+
+}
+
+#row_2{
+    display: inline;
+  
+    
+    padding: 20px;
+
+}
+
+#row_3{
+    display: inline;
+   
+   
+    padding: 20px;
+}
+
+button{
+    border-radius: .5rem;
+}
+
+:image{
+    -net: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_small.jpg); 
+     -plus: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+-flix: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+-rio: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+
+    }

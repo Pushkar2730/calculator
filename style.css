@@ -8,10 +8,10 @@
 
 
 body{
-   background-image: url(bckgrnd07.png);
+   /* background-image: url(bckgrnd07.png); */
    
    /* background-image: linear-gradient(to right,#00203FFF,#ADEFD1FF); */
-   /* background-image: url(https://media.istockphoto.com/photos/numbers-background-on-blue-bg-3d-rendering-picture-id1315382508); */
+   background-image: url(https://media.istockphoto.com/photos/numbers-background-on-blue-bg-3d-rendering-picture-id1315382508);
    
 background-color: black;
 font-family: 'Montserrat', sans-serif;

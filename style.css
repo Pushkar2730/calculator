@@ -9,38 +9,82 @@
 
 body{
    
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5a27cb25-33a9-4bcc-b441-95fefabcbd37/2548691d-4d8c-4d97-b96d-449d3cca5d7e/IN-en-20210823-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
-    
-
-    font-family: 'Montserrat', sans-serif;
+   /* background-image: linear-gradient(to right,#00203FFF,#ADEFD1FF); */
+   background-image: url(https://media.istockphoto.com/photos/numbers-background-on-blue-bg-3d-rendering-picture-id1315382508);
+   
+   font-family: 'Montserrat', sans-serif;
 
 }
-#container{
-    margin: 10% auto;
-    height: 500px;
-    width: 350px;
-    background-color: #FBBF24 ;
-    background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png) ;
+#history,#historyResult{
+    margin: .5rem auto 0rem auto ;
+    height: 50px;
+    width: 290px;
+    text-align: right;
+    font-size: 25px;
+    color: #D1D5DB;
+    background-color: whitesmoke;
+}
     
+
+#output,#outputResult{
+   margin:  0rem auto .5rem auto ;
+    width: 290px;
+    height: 50px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    
+    background-color:whitesmoke;
+   
+
+}
+
+#container{
+   
+    margin: 20px auto;
+    position: relative;
+    height: 700px;
+    width: 900px;
+    border: double;
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+   url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=355&q=80);
+    background-position: 50%;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    background: image size 100px;  ;
     
 }
 
 
+#calcy{
+    height: 500px;
+    width: 300px;
+    background-color: #5F4B8BFF;
+    background-image: url(https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80);
+    border: 1px solid black;
+    margin : 100px  300px;
+    float: right;
+}
 
 
+
+#row_0{
+    display: inline;
+    padding: 20px;
+    margin-top: .5rem;
+
+}
 #row_1{
     display: inline;
     padding: 20px;
-    margin-top: 3rem;
+    margin-top: .5rem;
     
 
 }
 
 #row_2{
     display: inline;
-  
+    margin-top: .5rem;
     
     padding: 20px;
 
@@ -48,13 +92,27 @@ body{
 
 #row_3{
     display: inline;
-   
-   
+    margin-top: .5rem;
     padding: 20px;
+}
+#row_4{
+    padding: 20px;
+    margin-top: .5rem;
 }
 
 button{
-    border-radius: .5rem;
+   
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 2px ;
+    cursor: pointer;
+    
+    
 }
 
 :image{

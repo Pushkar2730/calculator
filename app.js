@@ -45,17 +45,27 @@
             }
             else if(this.id=="backspace"){
                 prev=prev.substr(0,prev.length-1);
-                output=eval(prev);
+                if(isNaN(prev[prev.length-1])){
+                    var result=prev.substr(0,prev.length-1);
+                    output=eval(result);
+                }
+                else{
+                    output=eval(prev);
+                }
+                
             }
            else if(this.id=="%"){
                var i;
-               for(i=prev.length-1;prev[i]!=NaN;i--){
-              
-               }
-               alert(i);
-              var result=prev.substr(i+1,prev.length)/100;
-                
-                prev.substr(i+1,prev.length)=result;
+               let result="";
+               for(i=prev.length-1;isFinite(prev[i]);i--){
+                   if(prev[i-1]=="."){
+                      i--;
+                   }
+                 
+        }
+        
+                result=prev.substr(i+1,prev.length)/100;  
+                prev= prev.substr(0,i+1)+result;
                 output=eval(prev);
                 
             }

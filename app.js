@@ -65,7 +65,6 @@
                 result=prev.substr(i+1,prev.length)/100;  
                 prev= prev.substr(0,i+1)+result;
                 output=eval(prev);
-                
             }
           else if(this.id=="."){
                 prev+=this.id;

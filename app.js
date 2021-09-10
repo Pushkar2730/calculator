@@ -55,15 +55,13 @@
                 
             }
            else if(this.id=="%"){
-               var i;
+               
                let result="";
-               for(i=prev.length-1;isFinite(prev[i]);i--){
+               for( var i=prev.length-1;isFinite(prev[i]);i--){
                    if(prev[i-1]=="."){
                       i--;
                    }
-                 
-        }
-        
+                }
                 result=prev.substr(i+1,prev.length)/100;  
                 prev= prev.substr(0,i+1)+result;
                 output=eval(prev);
@@ -88,10 +86,9 @@
                 var result=prev.substr(0,prev.length-1);
                 output=eval(result);
                 }
-                // else{
-                //     output=eval(prev);
-                // }
+               
             }
+            
             printHistory(prev);
             printOutput(output);
             
